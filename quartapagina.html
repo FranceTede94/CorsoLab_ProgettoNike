@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Progetto della nike">
+    <title>Nike.Just Do It. Nike IT</title>
+    <link rel="icon" href="../progetto Nike/immagini/Senza titolo.png">
+    <link rel="stylesheet" href="../progetto Nike/css/quartapagina.css">
+    <script src="../progetto Nike/js/quartapagina.js"></script>
+    
+</head>
+
+<body>
+
+<div class="primobox">
+    <img src="../progetto Nike/immagini/Senza titolo.png" id="logo" alt="logo nike" width="60px" height="30"> 
+
+</div>
+
+<div class="secondobox">
+
+<p id="titolo">Pagamento</p>
+
+<form action="pagina.jpq" method="post" id="modulo">
+
+<p id="titolo2">Opzioni di consegna</p>
+    
+    <input type="text" name="nome" id="nome" placeholder="Nome">
+    <span></span>
+
+    <input type="text" name="cognome" id="cognome" placeholder="Cognome">
+    <span></span>
+
+    <input type="text" name="indirizzo" id="indirizzo" placeholder="Inizia a digitare l'indirizzo">
+    <span></span>
+
+    <input type="email" name="email" id="email" placeholder="E-mail">
+    <span></span>
+
+    <input type="text" name="tel" id="tel" placeholder="Numero di telefono">
+    <span></span>
+
+    <button>Salva e continua</button>
+
+
+</form>
+</div>
+
+<div class="quintobox">
+    <h4>Riepilogo</h4>
+    <p>Subtotale</p><span id="somma">239.98 €</span>
+    <p>Costi di spedizione<span id="testo">Gratis</span>
+    <hr>
+    <p>Totale</p><span id="somma1">239.98 €</span>
+</div>
+
+<div class="terzobox">
+    <h3>Pagamento</h3>
+    <p>Paese/regione di fatturazione <img src="../progetto Nike/immagini/punto-interrogativoquesitosimbolo-tappetino-mouse.jpg" alt="punto interrogativo" width="20px" height="20px"></p> 
+    <input type="checkbox" name="clicca" id="clicca"> Possiedi una gift card, un voucher prodotto o un codice proporzionale? <img src="../progetto Nike/immagini/punto-interrogativoquesitosimbolo-tappetino-mouse.jpg" alt="punto interrogativo" width="20px" height="20px"><br>
+    <div>
+        <input id="input1" type="text" placeholder="Numero voucher"> 
+        <input id="input2" type="text" placeholder="Codice proporzionale">
+    </div>
+    
+    <p>Seleziona pagamento</p>
+    <input type="radio" name="cartadicredito" id="cartadicredito"> 
+    <label for="cartadicredito">Carta di credito o debito</label><br>
+    <input type="radio" name="cartadicredito" id="paypal">
+    <label for="paypal">PayPal</label><br>
+    <input type="radio" name="cartadicredito" id="googlepay">
+    <label for="googlepay">GooglePay</label><br>
+    <div id="testo1">
+        <form>
+            <fieldset>
+                <p>Aggiungi carta</p>
+                <input type="text" placeholder="Numero carta">
+                <input type="text" placeholder="MM/AA">
+                <input type="text" placeholder="CVV">
+            </fieldset>
+        </form>  
+    </div>
+    <div id="testo2">
+        <p>Dopo aver confermato l'ordine sarai reindirizzato al sito di PayPal.</p>
+    </div>
+
+    <br>
+    <button id="invia">Invia Dati</button>
+
+
+</div>
+
+
+<div class="quartobox">
+    <p>Complimenti!!!</p>
+    <p>Il tuo pagamento è andato a buon fine</p>
+</div>
+
+
+
+</body>
+</html>

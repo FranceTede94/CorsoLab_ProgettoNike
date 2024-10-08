@@ -1,0 +1,134 @@
+body{
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    margin: 0px auto;
+}
+
+
+.primobox{
+    margin-left: 20px;
+    margin-top: 40px;
+}
+
+.secondobox{
+    margin-left: 200px;
+}
+
+#titolo{
+    margin-left: 35%;
+font-size: 30px;
+}
+
+#titolo2{
+    font-size: 25px;
+}
+
+.terzobox{
+    display: none;
+    font-size: 20px;
+    margin-left: 40px;
+}
+
+#testo1{
+    width: 50%;
+}
+
+fieldset{
+    height: 150px;
+}
+
+.paragrafo{
+    position: relative;
+    top: 35px;
+    display: none;
+}
+
+input:focus {
+    outline: none; /* ho tolto l'evidenziatore quando cliccavo sull'input */
+}
+
+#testo1 input, #input1, #input2 {
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px;
+    width: 20%;
+    border: 2px solid black; 
+}
+
+#nome, #cognome, #email, #indirizzo, #tel{
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px;
+    width: 35%;
+}
+
+
+button{
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-left: 25%;
+    width: 15%;
+    background-color: rgb(235, 231, 231);
+    color: rgb(119, 116, 116);
+}
+
+#invia{
+    margin: auto;
+    background-color: rgb(204, 196, 196);
+    width: 10%;
+}
+
+
+.quartobox{
+    display: none;
+    font-size: 20px;
+    text-align: center;
+    margin: auto;
+    margin-top: 200px;
+}
+
+
+.quintobox{
+    position: absolute;
+    top: 200px;
+    right: 300px;
+    font-size: 20px;
+    width: 25%;
+
+}
+
+#testo{
+    position: absolute;
+    top: 125px;
+    right: 0;
+    color: black;
+}
+
+#somma{
+    position: absolute;
+    top: 80px;
+    right: 0;
+    color: black;
+}
+
+#somma1{
+    position: absolute;
+    top: 190px;
+    right: 0;
+    color: black;
+}
+
+.errore {
+    border: 2px solid red;
+    border-color: red;
+}
+
+span{
+    display:block;
+    color: rgb(231, 68, 68);
+    font-size: 15px;
+    margin-left: 5px;
+}
+

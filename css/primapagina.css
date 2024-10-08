@@ -1,0 +1,226 @@
+body{
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    margin: 20px;
+}
+
+#elenco ul {
+    position: absolute;
+    top: 0;
+    right: 20px; 
+    margin-top: 30px; 
+}
+
+nav ul {
+    text-align: center;
+    font-size: 17px;
+}
+
+#logo{
+    position: relative;
+    top: 40px;
+    left: 0;
+}
+
+nav ul li{
+    position: relative;
+    list-style: none;
+    display: inline;
+    margin: 10px;
+
+}
+
+nav ul ul  {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 100%;
+    background-color:rgb(237, 226, 226);
+
+}
+
+nav ul li:hover > ul{
+    display: block;
+    font-size: 17px;
+}
+
+nav ul li a{
+    color: black;
+    text-decoration: none;
+}
+
+#logo{
+    margin-left: 20px;
+}
+
+.Box{
+    position: absolute;
+    top: 600px;
+    left: 100px;
+    color: white;
+    font-size: 25px;
+}
+
+.Box button{
+    background-color: white;
+    color: black;
+    border-radius: 30px;
+    padding: 10px;
+    font-size: 15px;
+}
+
+
+.secondobox{
+    position: absolute;
+    top: 100px;
+    right: 30px;
+}
+
+.terzobox{
+    text-align: center;
+    font-size: 15px;
+    background-color: rgb(234, 234, 234);
+}
+
+.terzobox img{
+    max-width: 100%;
+}
+
+.quartobox, button{
+    font-size: 25px;
+    text-align: center;
+}
+
+#bottone{
+    background-color: rgb(71, 71, 124);
+    color: white;
+    font-size: 25px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+h1{
+    font-size: 60px;
+    text-align: center;
+}
+
+#paragrafo{
+    font-size: 40px;
+}
+
+
+.quintobox{
+    float: left;
+    width: 33.3%;
+}
+
+.quintobox img{
+    width: 100%;
+    height: auto;
+}
+
+.sestobox {
+    float: left;
+    width: 33.3%;
+}
+
+.sestobox img
+{
+    max-width: 100%;
+    height: auto;
+}
+
+.settimobox {
+    float: left;
+    width: 33.3%;
+    text-align: center;
+}
+
+.settimobox button{
+    font-size: 15px;
+}
+
+.settimobox img
+{
+    max-width: 100%;
+    height: auto;
+}
+
+.pulisci{
+    clear: both;
+}
+
+.ottavobox{
+    margin-top: 50px;
+    float: left;
+    width: 15%;
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 100px;
+    text-align: center;
+}
+
+footer{
+    background-color: black;
+}
+.nonobox{
+    margin-top: 50px;
+    float: left;
+    width: 15%;
+    font-size: 15px;
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+
+#indietro{
+    position:absolute;
+    left: 90%;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+#avanti{
+    position:absolute;
+    left: 95%;
+    padding: 10px;
+    border-radius: 15px;
+}
+    
+
+#indietro1{
+    position:absolute;
+    left: 90%;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+#avanti1{
+    position:absolute;
+    left: 95%;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+#indietro2{
+    position:absolute;
+    left: 90%;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+#avanti2{
+    position:absolute;
+    left: 95%;
+    padding: 10px;
+    border-radius: 15px;
+}
+   
+   
+   
+
+
+

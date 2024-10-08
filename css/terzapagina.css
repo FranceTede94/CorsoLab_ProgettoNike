@@ -1,0 +1,157 @@
+body{
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    margin: 0;
+}
+
+#elenco ul {
+    position: absolute;
+    top: 0;
+    right: 10px;   
+}
+
+nav ul {
+    text-align: center;
+    font-size: 17px;
+}
+
+#logo{
+    position: relative;
+    top: 40px;
+    left: 0;
+}
+
+nav ul li{
+    position: relative;
+    list-style: none;
+    display: inline;
+    margin: 10px;
+    width: 100%;
+
+}
+
+nav ul ul  {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 100%;
+    background-color:  rgb(234, 234, 234);
+
+}
+
+nav ul li:hover > ul{
+    display: block;
+    z-index: 1;
+    font-size: 17px;
+}
+
+nav ul li a{
+    color: black;
+    text-decoration: none;
+}
+
+#logo{
+    margin-left: 20px;
+}
+
+.primobox{
+    background-color:  rgb(234, 234, 234);
+}
+
+.secondobox{
+    position: absolute;
+    top: 100px;
+    right: 30px;
+}
+
+.terzobox{
+    text-align: center;
+    font-size: 15px;
+    background-color: rgb(234, 234, 234);
+}
+
+.terzobox img{
+    max-width: 100%;
+}
+
+h3{
+    color: rgb(235, 99, 36);
+    margin-left: 150px;
+    border: 2px solid rgb(222, 216, 216);
+    width: 50%;
+    margin-top: 50px;
+}
+
+h2, .settimobox{
+    margin-left: 150px;
+}
+
+#paragrafo{
+    color: rgb(149, 144, 144);
+    font-size: 15px;
+
+}
+
+a{
+    color: rgb(149, 144, 144); 
+}
+
+.prezzo{
+    position: relative;
+    left: 450px;
+    bottom: 120px
+}
+ 
+.quartobox{
+    float: left;
+    margin-left: 150px;
+}
+
+.quintobox{
+    position: relative;
+    left: 20px;
+}
+
+.pulisci{
+    clear: both;
+}
+
+#paragrafo1{
+    margin-left: 150px;
+}
+
+.sestobox{
+    position: absolute;
+    top: 210px;
+    right: 280px;
+    font-size: 17px;
+}
+
+#somma{
+    position: absolute;
+    top: 70px;
+    right: -10px;
+}
+
+#somma1{
+    position: absolute;
+    top: 155px;
+    right: -10px;
+}
+
+#testo{
+    position: absolute;
+    top: 100px;
+    right: -10px; 
+}
+button{
+    border-radius: 100px;
+    width: 100%;
+    height: 40px;
+    font-size: 20px;
+    margin: 10px;
+    color: white;
+    background-color: black;
+}
